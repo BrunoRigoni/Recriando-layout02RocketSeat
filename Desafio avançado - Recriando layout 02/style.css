@@ -1,0 +1,121 @@
+body {
+background: #2F2E41;
+color: white;
+font-family: 'Open Sans', sans-serif;
+margin: 0;
+min-height: 100vh;
+}
+/*--------------------------body-----------------------------------------------------------*/
+
+nav {
+    margin: 71px 98px 107px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    font-weight: normal;
+    margin-bottom: 101px;
+}
+
+
+ul {
+    display: flex;
+    gap: 64px;
+    margin: 0;
+    padding: 0;
+    line-height: 28px;
+    list-style: none;
+    font-size: 14px;
+}
+
+ul li a {
+   text-decoration: none;
+   font-weight: normal;
+   opacity: 1;
+
+
+}
+a {
+    color: #fff;
+}
+nav, h1, footer {
+    font-family: 'JetBrains Mono', monospace;
+}
+ul li a:hover {
+   font-weight: bold;
+   opacity: 2;
+}
+/*----------------------------------------------nav bar---------------------------------------------------------------------*/
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 99px 157px;
+
+}
+.page {
+width: 1092px;
+margin: 0 auto;
+
+
+}
+span {
+    color: #00BFA6;
+}
+h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-bottom: 59px;
+}
+span {
+font-weight: bold;
+}
+p strong {
+    font-weight: bold;
+}
+p {
+    font-weight: normal;
+    text-align: center;
+    font-size: 16px;
+    line-height: 28px;
+    color: #C2C2C2;
+}
+.img    {
+    width: 401px;
+}
+
+/*----------------------------------------------main---------------------------------------------*/
+#line {
+    border: solid 1px #00BFA6;
+    width: 568px;
+    display: flex;
+    margin: 167px auto 27px;
+    padding: 0;
+
+}
+/*-------------------------------------footer---------------------------------------------------*/
+footer {
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: normal ;
+    text-align: center;
+    margin-bottom: 23px;
+
+}
+footer a {
+    text-decoration: none;
+}
+footer a:hover {
+    font-weight: bold;
+}
+/*-------------------------------------decorative---------------------------------------------------*/
+#padlock {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
